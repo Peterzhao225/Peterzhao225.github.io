@@ -7,30 +7,28 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Jiale Zhao"
-title_separator          : "-"
-name                     : &name "Jiale Zhao"
-description              : &description "Jiale Zhao's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://Peterzhao225.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Peterzhao225/Peterzhao225.github.io"
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Jiale Zhao"
+title_separator          : "-"
+name                     : &name "Jiale Zhao"
+description              : &description "Jiale Zhao's academic portfolio"
+url                      : "https://Peterzhao225.github.io"
+baseurl                  : ""
+repository               : "Peterzhao225/Peterzhao225.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Jiale Zhao"
-  pronouns         : " he/him "  
-  bio              : "An undergraduate student at Beihang University "
-  location         : "Beijing, China"
-  employer         : "Beihang University"
-  uri              : # URL
-  email            : "13121083059@163.com" 
+  avatar           : "profile.png"
+  name             : "Jiale Zhao"
+  pronouns         : "he/him"
+  bio              : "An undergraduate student at Beihang University"
+  location         : "Beijing, China"
+  employer         : "Beihang University"
+  email            : "13121083059@163.com"
+  github           : "Peterzhao225"
+  bluesky          : "bsky.app"
 
   # Academic websites 
   academia         : # URL
