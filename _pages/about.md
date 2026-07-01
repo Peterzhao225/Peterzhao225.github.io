@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "About me"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 Welcome to my academic homepage! 
 
 I am an undergraduate student at the School of Automation Science and Electrical Engineering, **Beihang University**. 
