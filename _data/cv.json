@@ -1,65 +1,57 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Jiale Zhao",
+    "email": "Zhaojl27@buaa.edu.cn
+",
+    "phone": "13121083059",
+    "website": "https://peterzhao225.github.io/",
+    "summary": "Undergraduate student at Beihang University, with research interests in reinforcement learning, AI agents, and combinatorial optimization.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
-    },
+  "address": "Haidian District",
+  "postalCode": "",
+  "city": "Beijing",
+  "countryCode": "CN",
+  "region": "Beijing"
+},
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?hl=en&user=kVMwjsoAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/my-orcid?orcid=0009-0003-2424-9548"
       },
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://peterzhao225.github.io/"
       }
     ]
   },
   "work": [],
   "education": [
-    {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
-    }
-  ],
+  {
+    "institution": "Beihang University",
+    "area": "Chuanyuan College",
+    "studyType": "Undergraduate",
+    "startDate": "2024-09",
+    "endDate": "2025-06",
+    "gpa": null,
+    "courses": []
+  },
+  {
+    "institution": "Beihang University",
+    "area": "School of Automation Science and Electrical Engineering",
+    "studyType": "Undergraduate",
+    "startDate": "2025-09",
+    "endDate": "Present",
+    "gpa": null,
+    "courses": []
+  }
+],
   "skills": [],
   "languages": [],
   "interests": [],
