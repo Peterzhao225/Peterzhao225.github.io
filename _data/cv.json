@@ -64,13 +64,5 @@
   "summary": "A directed graph-guided framework for automated algorithm design with large language models, evaluated across 12 combinatorial optimization problems."
 }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  
 }
