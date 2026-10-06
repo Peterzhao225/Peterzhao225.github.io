@@ -95,6 +95,31 @@
     </ul>
   </div>
   {% endif %}
+
+  {% if cv.awards.size > 0 %}
+  <!-- Awards and Honors -->
+  <div class="cv-section">
+    <h2>Awards &amp; Honors</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ award.name }}</div>
+          {% if award.date and award.date != "" %}
+          <div class="cv-item-date">{{ award.date }}</div>
+          {% endif %}
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ award.officialName }}{% if award.category %} · {{ award.category }}{% endif %}</div>
+          {% if award.detail %}
+          <div class="cv-item-detail">{{ award.detail }}</div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
   
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
@@ -158,6 +183,9 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ publication.publisher }}</div>
+          {% if publication.authors %}
+          <div class="cv-item-detail">{{ publication.authors }}</div>
+          {% endif %}
           {% if publication.summary %}
           <div class="cv-item-detail">{{ publication.summary }}</div>
           {% endif %}
@@ -228,7 +256,7 @@
   {% if cv.portfolio.size > 0 %}
   <!-- Portfolio -->
   <div class="cv-section">
-    <h2>Portfolio</h2>
+    <h2>Research Projects</h2>
     <ul class="cv-list">
       {% for item in cv.portfolio %}
       <li class="cv-item">
@@ -245,6 +273,31 @@
           <div class="cv-item-detail">
             <a href="{{ item.url }}" target="_blank">View Project</a>
           </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.leadership.size > 0 %}
+  <!-- Leadership and Service -->
+  <div class="cv-section">
+    <h2>Leadership &amp; Service</h2>
+    <ul class="cv-list">
+      {% for item in cv.leadership %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ item.role }}</div>
+          {% if item.date %}
+          <div class="cv-item-date">{{ item.date }}</div>
+          {% endif %}
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ item.organization }}</div>
+          {% if item.description %}
+          <div class="cv-item-detail">{{ item.description }}</div>
           {% endif %}
         </div>
       </li>
