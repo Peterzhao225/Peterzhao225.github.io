@@ -14,20 +14,18 @@ author:
   avatar           : "Zhaojl.jpg"
   name             : "Jiale Zhao"
   pronouns         : "he/him"
-  bio              : "An undergraduate student at Beihang University"
+  bio              : "Undergraduate researcher in reinforcement learning, embodied intelligence, and operations research"
   location         : "Beijing, China"
   employer         : "Beihang University"
-  email            : "13121083059@163.com"
+  email            : "Zhaojl27@buaa.edu.cn"
   github           : "Peterzhao225"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=kVMwjsoAAAAJ"
+  orcid            : "https://orcid.org/0009-0003-2424-9548"
 
 # Publication Category
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'  
-  conferences:
-    title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
 
 # Site Settings
 breadcrumbs              : false

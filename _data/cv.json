@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Jiale Zhao",
-    "label": "Undergraduate Researcher in AI and Optimization",
+    "label": "Undergraduate Researcher in Reinforcement Learning, Embodied Intelligence, and Operations Research",
     "email": "Zhaojl27@buaa.edu.cn",
     "phone": "13121083059",
     "website": "https://peterzhao225.github.io/",
-    "summary": "I am an undergraduate student at Beihang University. My research focuses on AI agents, large language model-driven automated algorithm design, neural network training, and combinatorial optimization. I am particularly interested in building autonomous systems that can search for programs, design complete algorithmic pipelines, and solve challenging scheduling and routing problems.",
+    "summary": "I am an undergraduate student at Beihang University, advised by Prof. Liyuanjun Lai. My research interests lie in reinforcement learning, embodied intelligence, and operations research. I am interested in building learning and decision-making systems that can interact with complex environments, discover effective strategies, and solve challenging optimization problems.",
     "location": {
       "address": "Haidian District",
       "postalCode": "",
@@ -54,25 +54,23 @@
   ],
   "skills": [
     {
-      "name": "Artificial Intelligence",
+      "name": "Reinforcement Learning",
       "keywords": [
-        "AI Agents",
-        "Reinforcement Learning",
-        "Neural Network Training",
-        "Vision-Language Models"
+        "Sequential Decision-Making",
+        "Policy Learning",
+        "Agentic Systems"
       ]
     },
     {
-      "name": "Automated Algorithm Design",
+      "name": "Embodied Intelligence",
       "keywords": [
-        "LLM4AD",
-        "Program Search",
-        "Neural-Symbolic Systems",
-        "Automated Heuristic Design"
+        "Perception and Interaction",
+        "Embodied Agents",
+        "Learning in Physical Environments"
       ]
     },
     {
-      "name": "Combinatorial Optimization",
+      "name": "Operations Research",
       "keywords": [
         "Job-Shop Scheduling",
         "Vehicle Routing",
