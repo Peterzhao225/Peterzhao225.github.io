@@ -63,7 +63,7 @@
   {% if cv.basics.summary %}
   <!-- Summary -->
   <div class="cv-section">
-    <h2>Summary</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">🔎</span> Summary</h2>
     <p>{{ cv.basics.summary }}</p>
   </div>
   {% endif %}
@@ -71,7 +71,7 @@
   {% if cv.education.size > 0 %}
   <!-- Education -->
   <div class="cv-section">
-    <h2>Education</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">🎓</span> Education</h2>
     <ul class="cv-list">
       {% for education in cv.education %}
       <li class="cv-item">
@@ -99,7 +99,7 @@
   {% if cv.awards.size > 0 %}
   <!-- Awards and Honors -->
   <div class="cv-section">
-    <h2>Awards &amp; Honors</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">🏆</span> Awards &amp; Honors</h2>
     <ul class="cv-list">
       {% for award in cv.awards %}
       <li class="cv-item">
@@ -124,7 +124,7 @@
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
   <div class="cv-section">
-    <h2>Work Experience</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">💼</span> Work Experience</h2>
     <ul class="cv-list">
       {% for work in cv.work %}
       <li class="cv-item">
@@ -154,7 +154,7 @@
   {% if cv.skills.size > 0 %}
   <!-- Skills -->
   <div class="cv-section">
-    <h2>Skills</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">🧭</span> Research Interests</h2>
     <div class="cv-skills">
       {% for skill in cv.skills %}
       <div class="cv-skill-category">
@@ -173,7 +173,7 @@
   {% if cv.publications.size > 0 %}
   <!-- Publications -->
   <div class="cv-section">
-    <h2>Publications</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">📄</span> Publications</h2>
     <ul class="cv-list">
       {% for publication in cv.publications %}
       <li class="cv-item">
@@ -204,7 +204,7 @@
   {% if cv.presentations.size > 0 %}
   <!-- Presentations/Talks -->
   <div class="cv-section">
-    <h2>Presentations</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">🎤</span> Presentations</h2>
     <ul class="cv-list">
       {% for talk in cv.presentations %}
       <li class="cv-item">
@@ -230,7 +230,7 @@
   {% if cv.teaching.size > 0 %}
   <!-- Teaching -->
   <div class="cv-section">
-    <h2>Teaching</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">📚</span> Teaching</h2>
     <ul class="cv-list">
       {% for teaching in cv.teaching %}
       <li class="cv-item">
@@ -256,7 +256,7 @@
   {% if cv.portfolio.size > 0 %}
   <!-- Portfolio -->
   <div class="cv-section">
-    <h2>Research Projects</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">🧪</span> Research Projects</h2>
     <ul class="cv-list">
       {% for item in cv.portfolio %}
       <li class="cv-item">
@@ -284,7 +284,7 @@
   {% if cv.leadership.size > 0 %}
   <!-- Leadership and Service -->
   <div class="cv-section">
-    <h2>Leadership &amp; Service</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">🤝</span> Leadership &amp; Service</h2>
     <ul class="cv-list">
       {% for item in cv.leadership %}
       <li class="cv-item">
@@ -309,7 +309,7 @@
   {% if cv.languages.size > 0 %}
   <!-- Languages -->
   <div class="cv-section">
-    <h2>Languages</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">🌐</span> Languages</h2>
     <ul class="cv-list">
       {% for language in cv.languages %}
       <li class="cv-item">
@@ -326,7 +326,7 @@
   {% if cv.interests.size > 0 %}
   <!-- Interests -->
   <div class="cv-section">
-    <h2>Interests</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">✨</span> Interests</h2>
     <ul class="cv-list">
       {% for interest in cv.interests %}
       <li class="cv-item">
@@ -345,7 +345,7 @@
   {% if cv.references.size > 0 %}
   <!-- References -->
   <div class="cv-section">
-    <h2>References</h2>
+    <h2><span class="cv-section-icon" aria-hidden="true">📬</span> References</h2>
     <ul class="cv-list">
       {% for reference in cv.references %}
       <li class="cv-item">

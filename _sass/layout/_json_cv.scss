@@ -76,6 +76,17 @@
   color: var(--global-text-color);
 }
 
+.cv-section-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.45em;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  font-size: 0.9em;
+  font-weight: normal;
+  line-height: 1;
+}
+
 /* Item Styles */
 
 .cv-item {
